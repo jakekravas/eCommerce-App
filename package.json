@@ -1,0 +1,22 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakekravas/eCommerce-App.git"
+  },
+  "author": "Jake Kravas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakekravas/eCommerce-App/issues"
+  },
+  "homepage": "https://github.com/jakekravas/eCommerce-App#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
