@@ -16,7 +16,7 @@ const ProductScreen = ({ match }) => {
     }
 
     fetchProduct();
-  }, []);
+  }, [match]); //putting match here to prevent console warning
 
   return (
     <>
