@@ -10,7 +10,7 @@ import Product from "../models/productModel.js";
 // using asyncHandler so that if there's any error, it'll display in a message in Postman
 router.get("/", asyncHandler(async (req, res) => {
   const products = await Product.find();
-
+  
   res.json(products);
 }));
 
